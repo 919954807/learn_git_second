@@ -47,3 +47,6 @@ git config --global user.email "252780456@qq.com"
 git init
 git remote add origin2 git@github.com:919954807/learn_git_second.git
 git pull origin2 master
+git add .
+gid commit -m "local_test"
+git push -u origin2 master
