@@ -40,3 +40,10 @@ id_rsa.pub	公钥
 git push -u origin master
 git push -u origin2 master
 如果同时在本地存在多个仓库，可以需要使用不同的名称（）
+
+从网上下载下来再上传，新建文件夹bash here
+git config --global user.name  "daopei"
+git config --global user.email "252780456@qq.com"
+git init
+git remote add origin2 git@github.com:919954807/learn_git_second.git
+git pull origin2 master
