@@ -26,7 +26,7 @@ git log
 1.HTTPS协议-每次同步需要输入github的账号和密码
 2.SSH协议-需要在最开始时配置公私钥，但只需要配置一次
 仓库目录下执行：
-git remote add origin git@github.com:919954807/learn_git_second.git
+git remote add origin2 git@github.com:919954807/learn_git_second.git
 git remote
 配置公私钥
 ssh-keygen -t rsa -C "252780456@qq.com"
@@ -38,3 +38,5 @@ id_rsa.pub	公钥
 复制公钥的内容到key中并提交
 验证成功后，切换回github仓库
 git push -u origin master
+git push -u origin2 master
+如果同时在本地存在多个仓库，可以需要使用不同的名称（）
