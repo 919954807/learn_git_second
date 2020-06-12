@@ -52,3 +52,11 @@ git pull origin master
 git add .
 git commit -m "local_test1"
 git push -u origin2 master
+
+7.训练营提交作业的完整流程
+fork仓库
+git@github.com:919954807/learn_git_second.git
+git clone git@github.com:geektime-geekbang/Frontend-01-Template.git
+
+
+
