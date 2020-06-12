@@ -50,5 +50,5 @@ ssh-keygen -t rsa -C "252780456@qq.com"(已有私钥的不用执行)
 查看git上的用户settings的SSH and GPGKeys选择NewSSHkey复制公钥的内容到key中并提交
 git pull origin2 master
 git add .
-gid commit -m "local_test"
+git commit -m "local_test1"
 git push -u origin2 master
