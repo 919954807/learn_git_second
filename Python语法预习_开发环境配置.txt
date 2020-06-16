@@ -1,0 +1,67 @@
+2.如何系统化学习python
+《提问的智慧》： https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md
+Python 3.7.7 官方文档： https://docs.python.org/zh-cn/3.7/
+GitHub 搜索帮助： https://help.github.com/cn/github/searching-for-information-on-github
+PEP8： https://www.python.org/dev/peps/pep-0008/
+Google Python Style Guides： http://google.github.io/styleguide/pyguide.html
+
+===================================================================
+3. 不同操作系统中的环境变量配置方法
+Python 安装包下载地址
+https://www.python.org/downloads/
+安装方法
+https://docs.python.org/zh-cn/3.7/using/windows.html
+Windows 系统环境变量配置
+使用 Windows 系统的同学，在安装界面，勾选“Add Python 3.x to PATH”选项，然后安装即可。
+注意： 如果你安装了多个不同版本 Python3.x ，那么后安装的版本会覆盖之前安装的版本。
+
+比如，你先安装的是 Python3.7，然后又安装了 Python3.8 （每次安装时均勾选了“Add Python 3.x to PATH”选项），那么，当你在命令行输入 python 之后，实际运行的就是 python3.8 版本。
+如果想让多个版本共存，可以使用下面的方法：
+
+1.启动命令行工具 cmd（不能使用 PowerShell）输入 where python 找出各个版本的安装目录。
+
+2.按照查询出来的路径，找到文件所在位置（可以直接复制路径到地址栏，然后回车，即可直达相应的目录），对 python.exe 文件重命名（如下图所示，具体重命名哪个版本的 python.exe 文件，根据你的具体需求而定）。
+如重命名为python3.7
+3.然后在命令行输入修改后的文件名，回车后，即可执行对应的 Python 版本
+则python3.7执行python3.7  python则执行python3.8
+
+====================================================================
+4. 加快第三方库的安装速度：配置pip源
+常用 pip 源地址
+豆瓣： https://pypi.doubanio.com/simple/
+清华： https://mirrors.tuna.tsinghua.edu.cn/help/pypi/
+中科大： https://pypi.mirrors.ustc.edu.cn/simple/
+阿里云： https://mirrors.aliyun.com/pypi/simple/
+
+修改方式
+1.临时替换
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+2.永久替换（先升级 pip：python.exe -m pip install pip -U）
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+=====================================================================
+5. 提升开发效率：配置venv虚拟环境
+虚拟环境和包说明文档
+https://docs.python.org/zh-cn/3.7/tutorial/venv.html
+https://docs.python.org/zh-cn/3.7/contents.html
+
+=====================================================================
+6. 开发工具：安装Visual Studio Code和相关插件
+https://code.visualstudio.com/#alt-downloads
+
+=====================================================================
+7. Python基础语法概览
+如果之前没有 Python 编程经验，请在预习周尽快熟悉下 Python 基础语法。
+Python 标准语法： https://docs.python.org/zh-cn/3.7/tutorial/index.html
+Python 内置函数： https://docs.python.org/zh-cn/3.7/library/functions.html
+Python 内置类型： https://docs.python.org/zh-cn/3.7/library/stdtypes.html
+Python 数据类型： https://docs.python.org/zh-cn/3.7/library/datatypes.html
+Python 标准库： https://docs.python.org/zh-cn/3.7/library/index.html
+Python 计算器使用： https://docs.python.org/zh-cn/3.7/tutorial/introduction.html
+Python 数据结构： https://docs.python.org/zh-cn/3.7/tutorial/datastructures.html
+再此之外，如果想快速了解并掌握爬虫的知识，还需要有 HTML（超文本标记语言）的基础哦
+HTML 标准语法： https://developer.mozilla.org/zh-CN/docs/Web/HTML
+HTML 元素参考： https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element
+HTML 属性参考： https://developer.mozilla.org/zh-CN/docs/Web/HTML/Attributes
+HTML 全局属性： https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes
+HTML 链接类型： https://developer.mozilla.org/zh-CN/docs/Web/HTML/Link_types
