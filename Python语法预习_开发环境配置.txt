@@ -45,6 +45,19 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 https://docs.python.org/zh-cn/3.7/tutorial/venv.html
 https://docs.python.org/zh-cn/3.7/contents.html
 
+python -m venv venv1
+python -m venv venv2
+打开第一个cmd输入，执行下面命令后，进入到venv1环境
+venv1\Scripts\activate.bat
+(venv1) D:\Python\geekbang_python_ban>pip install requests
+pip install requests
+python
+import requests(可以导入成功)
+打开第二个cmd输入，执行下面命令后，进入到venv2环境
+venv2\Scripts\activate.bat
+python
+import requests(导入不成功)
+
 =====================================================================
 6. 开发工具：安装Visual Studio Code和相关插件
 https://code.visualstudio.com/#alt-downloads
