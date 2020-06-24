@@ -39,6 +39,12 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 2.永久替换（先升级 pip：python.exe -m pip install pip -U）
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
+在A环境生成requirements.txt文件
+pip3 freeze > requirements.txt
+
+在B环境克隆A环境
+pip3 install -r requirements.txt
+
 =====================================================================
 5. 提升开发效率：配置venv虚拟环境
 虚拟环境和包说明文档

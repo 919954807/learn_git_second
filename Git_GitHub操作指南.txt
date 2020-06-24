@@ -49,10 +49,10 @@ git remote add origin git@github.com:919954807/geekbangpython.git
 git remote add origin git@github.com:919954807/Python001-class01.git
 ssh-keygen -t rsa -C "252780456@qq.com"(一个key对应一个项目)
 查看git上的用户settings的SSH and GPGKeys选择NewSSHkey复制公钥的内容到key中并提交
-git pull origin master
+git pull origin master  取下来
 git add .
 git commit -m "local_test1"
-git push -u origin2 master
+git push -u origin2 master  放上去
 
 7.训练营提交作业的完整流程
 fork仓库
