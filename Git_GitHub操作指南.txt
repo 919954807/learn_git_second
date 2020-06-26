@@ -47,6 +47,7 @@ git init
 git remote add origin2 git@github.com:919954807/learn_git_second.git
 git remote add origin git@github.com:919954807/geekbangpython.git
 git remote add origin git@github.com:919954807/Python001-class01.git
+git remote add origin  git@github.com:919954807/geekbangtrain.git
 ssh-keygen -t rsa -C "252780456@qq.com"(一个key对应一个项目)
 查看git上的用户settings的SSH and GPGKeys选择NewSSHkey复制公钥的内容到key中并提交
 git pull origin master  取下来
@@ -59,6 +60,15 @@ git push -u origin master  放上去
 fork仓库
 git@github.com:919954807/learn_git_second.git
 git clone git@github.com:geektime-geekbang/Frontend-01-Template.git
+
+
+Microsoft Visual C++ Build Tools 2015
+
+scrapy框架：
+cd geekbangpython
+scrapy startproject spiders
+scrapy genspider movies douban.com
+
 
 
 
