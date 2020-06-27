@@ -41,13 +41,15 @@ git push -u origin2 master
 如果同时在本地存在多个仓库，可以需要使用不同的名称（）
 
 从网上下载下来再上传，新建文件夹bash here
+git init
 git config --global user.name  "daopei"
 git config --global user.email "252780456@qq.com"
-git init
+git remote
 git remote add origin2 git@github.com:919954807/learn_git_second.git
 git remote add origin git@github.com:919954807/geekbangpython.git
 git remote add origin git@github.com:919954807/Python001-class01.git
 git remote add origin  git@github.com:919954807/geekbangtrain.git
+git remote add origin   git@github.com:919954807/Python001-class01.git
 ssh-keygen -t rsa -C "252780456@qq.com"(一个key对应一个项目)
 查看git上的用户settings的SSH and GPGKeys选择NewSSHkey复制公钥的内容到key中并提交
 git pull origin master  取下来
@@ -66,8 +68,11 @@ Microsoft Visual C++ Build Tools 2015
 
 scrapy框架：
 cd geekbangpython
-scrapy startproject spiders
-scrapy genspider movies douban.com
+scrapy startproject spidersmaoyan
+scrapy genspider maoyanmovies maoyan.com
+
+运行爬虫：
+scrapy crawl maoyanmovies
 
 
 
